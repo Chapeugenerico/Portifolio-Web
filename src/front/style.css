@@ -1,0 +1,330 @@
+:root {
+    --bg-color: #d1d1d1;
+    --card-bg: #bcbcbc;
+    --text-primary: #333;
+    --border-color: #555;
+    --accent-orange: #ff8c00; /* Cor dos ícones do wireframe */
+    --font-main: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Reset e Configurações Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    font-family: var(--font-main);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+/* --- Navegação --- */
+header {
+    background: rgba(209, 209, 209, 0.95);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #bbb;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--text-primary);
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-right: 20px;
+    cursor: default;
+}
+
+
+
+/* --- Seção Início (Hero) --- */
+.hero {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+    letter-spacing: 2px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.box-icon { width: 45px; height: 45px; }
+
+/* --- Sobre Mim --- */
+.about-card {
+    background: var(--card-bg);
+    padding: 40px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.about-card h2 { margin-bottom: 20px; }
+
+/* --- Projetos --- */
+/* Container Geral de Projetos */
+.projetos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+/* O Box do Projeto */
+.projeto-card {
+    display: grid;
+    /* Coluna 1: Imagem | Coluna 2: Info | Coluna 3: Tags */
+    grid-template-columns: 1fr 1.2fr 1fr; 
+    border: 2px solid #333;
+    background-color: transparent;
+    overflow: hidden;
+    min-height: 300px;
+}
+
+/* Coluna 1: Espaço da Imagem */
+.projeto-image {
+    border-right: 2px solid #333;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Coluna 2: Informações Centrais */
+.projeto-info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+
+.projeto-info h3 {
+    text-decoration: underline;
+    font-size: 1.4rem;
+    color: #444;
+}
+
+.projeto-info p {
+    margin: 20px 0;
+    color: #555;
+}
+
+/* Rodapé da Info */
+.projeto-info div.footer-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 0.85rem;
+}
+
+/* botão 'Ver mais' da info */
+.projeto-info button {
+    background-color: #bcbcbc;
+    border: 2px solid #333;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+/* Coluna 3: Tecnologias*/
+.projeto-tags {
+    padding: 20px;
+    border-left: 2px solid #333;
+    background-color: transparent;
+    text-align: center;
+}
+
+.projeto-tags h4 {
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.projeto-tags p {
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin: 10px 0 5px;
+}
+
+.tec-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.mini-icon {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+/* --- Experiências --- */
+.experiencias-container { 
+    background: transparent;
+    text-align: center;
+    }
+
+.experiencia-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.experiencia-categoria {
+    background: var(--card-bg);
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    margin: 0 auto;
+}
+
+.experiencia-categoria:nth-child(1) {
+    grid-column: 1 / span 2;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.experiencia-categoria h3 {
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 15px;
+}
+
+.tec-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.tec-item { width: 50px; height: 50px; }
+
+
+
+/* --- Contato --- */
+.contact { text-align: center; }
+
+.contact-social {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.social-card {
+    background: var(--card-bg);
+    padding: 20px;
+    width: 180px;
+}
+
+.circle-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    border: 1px solid var(--border-color);
+}
+
+.cv-bar {
+    background: var(--card-bg);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.email-form {
+    background: var(--card-bg);
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.email-form input, .email-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #999;
+    background: #eee;
+}
+
+button {
+    padding: 8px 20px;
+    cursor: pointer;
+    background: #e0e0e0;
+    border: 1px solid #777;
+    transition: 0.2s;
+}
+
+button:hover { background: #ccc; }
+
+
+
+/* --- Footer --- */
+footer {
+    border-top: 1px solid #999;
+    padding: 40px 0;
+    margin-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+
+.footer-links span { margin-left: 20px; }
+
+/* --- Responsividade Básica --- */
+@media (max-width: 768px) {
+    .hero, .projeto-card, .experiencia-grid {
+        grid-template-columns: 1fr;
+    }
+}
