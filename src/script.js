@@ -20,12 +20,12 @@ function toggleLang() {
 
 
 // Adiciona evento de clique ao botão de alternância de idioma
-document.getElementById('lang-toggle').addEventListener('click', toggleLang);
+document.getElementById('toggle-lang').addEventListener('click', toggleLang);
 
 document.querySelector('form').addEventListener('submit', function(e) {
     let name = document.querySelector('input[name="name"]').value;
     let email = document.querySelector('input[name="email"]').value;
-    let message = document.querySelector('textarea').value;
+    let message = document.querySelector('textarea[name="message"]').value;
     
     if (name === "" || email === "" || message === "") {
         alert("Por favor, preencha todos os campos");
