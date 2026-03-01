@@ -90,9 +90,13 @@ nav {
 
 .lang-eng { display: none; }
 
-body.en-active .lang-br { display: none; }
+body.en-active .lang-br { 
+    display: none !important; 
+}
 
-body.en-active .lang-eng { display: inline-block; }
+body.en-active .lang-eng { 
+    display: revert !important; 
+}
 
 
 
@@ -143,7 +147,12 @@ body.en-active .lang-eng { display: inline-block; }
     max-width: 20rem;
     border-radius: 3rem;
     border: 0.1rem solid var(--border-color);
+    background:
+    linear-gradient(-45deg, var(--destaque-color) 25%, transparent 25%, transparent 75%, var(--bg-color) 75%, var(--bg-color)) 0 0,
+    linear-gradient(-45deg, var(--bg-color) 25%, transparent 25%, transparent 75%, var(--destaque-color) 75%, var(--destaque-color)) 1em 1em,
+    linear-gradient(45deg, var(--bg-color) 17%, transparent 17%, transparent 25%, var(--bg-color) 25%, var(--bg-color) 36%, transparent 36%, transparent 64%, var(--bg-color) 64%, var(--bg-color) 75%, transparent 75%, transparent 83%, var(--bg-color) 83%) 1em 1em;
     background-color: var(--destaque-color);
+    background-size: 2em 2em;
 }
 
 @keyframes typing {
@@ -158,7 +167,7 @@ body.en-active .lang-eng { display: inline-block; }
 
 
 /* --- Sobre Mim --- */
-.about-card h2 { text-align: center; margin-bottom: 20px; color: var(--destaque-color);}
+.about-card h2 { font-size: 1.4rem; text-align: center; margin-bottom: 5px; color: var(--destaque-color);}
 
 .about-card {
     color: var(--bg-color);
@@ -168,6 +177,7 @@ body.en-active .lang-eng { display: inline-block; }
     text-align: left;
     font-size: larger;
     box-shadow: #77777791 0px 4px 4px;
+    width: 100%;
 }
 
 .about-card:hover {
@@ -305,6 +315,20 @@ div.mini-icon img{
 
 
 /* --- Experiências --- */
+
+.github-stats-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.github-stats-container img {
+    max-width: 100%; /* Garante que não ultrapasse o card */
+    height: auto;
+    border-radius: 0.5rem;
+}
+
 .experiencias-container { 
     background: transparent;
     text-align: center;

@@ -14,21 +14,40 @@ document.querySelectorAll('nav a').forEach(anchor => {
 
 // Função para alternar entre português e inglês
 function toggleLang() {
-  document.body.classList.toggle('en-active');
+  const body = document.body;
+  body.classList.toggle('en-active');
+  
+  // Seleciona os campos
+  const nameInput = document.getElementById('form-name');
+  const emailInput = document.getElementById('form-email');
+  const messageInput = document.getElementById('form-message');
+
+  // Traduz os placeholders dinamicamente
+  if (body.classList.contains('en-active')) {
+    nameInput.placeholder = "Your name";
+    emailInput.placeholder = "Your email";
+    messageInput.placeholder = "Write your message here...";
+  } else {
+    nameInput.placeholder = "Seu nome";
+    emailInput.placeholder = "Seu e-mail";
+    messageInput.placeholder = "Escreva sua mensagem aqui...";
+  }
 }
 
 
 
 // Adiciona evento de clique ao botão de alternância de idioma
-document.getElementById('toggle-lang').addEventListener('click', toggleLang);
-
+//document.getElementById('toggle-lang').addEventListener('click', toggleLang);
 document.querySelector('form').addEventListener('submit', function(e) {
-    let name = document.querySelector('input[name="name"]').value;
-    let email = document.querySelector('input[name="email"]').value;
-    let message = document.querySelector('textarea[name="message"]').value;
+    const name = document.getElementById('form-name').value;
+    const email = document.getElementById('form-email').value;
+    const message = document.getElementById('form-message').value;
     
-    if (name === "" || email === "" || message === "") {
-        alert("Por favor, preencha todos os campos");
-        e.preventDefault(); // Impede o envio
+    if (!name || !email || !message) {
+        const msg = document.body.classList.contains('en-active') 
+            ? "Please fill in all fields" 
+            : "Por favor, preencha todos os campos";
+        alert(msg);
+        e.preventDefault();
     }
 });
