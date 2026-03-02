@@ -1,24 +1,16 @@
-
-
 # 🏷️ Portifólio Web 👨‍💻
 
-> [!NOTE]
-> Apresentação de competências e projetos criados, com direcionamento para redes socias profissionais.
+> Em progresso
 
 ---
 
 ## 🚧 Status do Projeto
 
-### Exemplos de badges básicos:
-
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/joaopauloaramuni/joaopauloaramuni/main.yml?branch=main)](https://github.com/joaopauloaramuni/joaopauloaramuni/actions/workflows/main.yml)
-[![Test Coverage](https://codecov.io/gh/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/branch/main/graph/badge.svg)](https://codecov.io/gh/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software)
-[![Versão](https://img.shields.io/badge/Versão-v1.0.0-blue)](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/releases)
-[![Licença](https://img.shields.io/github/license/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software)](#licença)
-
-### Outros exemplos de badges:
-
-[![Versão](https://img.shields.io/badge/Versão-v1.0.0-blue?style=for-the-badge)](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/releases) ![React](https://img.shields.io/badge/React-19.1.1-007ec6?style=for-the-badge&logo=react&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-7.1.2-007ec6?style=for-the-badge&logo=vite&logoColor=white) ![GitHub repo size](https://img.shields.io/github/repo-size/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software?style=for-the-badge&logo=files) ![GitHub directory file count](https://img.shields.io/github/directory-file-count/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software?style=for-the-badge&logo=files)  ![GitHub language count](https://img.shields.io/github/languages/count/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software?style=for-the-badge&logo=python) ![GitHub last commit](https://img.shields.io/github/last-commit/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software?style=for-the-badge&logo=clockify) ![Vercel](https://vercelbadge.vercel.app/api/joaopauloaramuni/joaopauloaramuni-portfolio?style=for-the-badge) ![Views Counter](https://views-counter.vercel.app/badge?pageId=https%3A%2F%2Fgithub%2Ecom%2Fjoaopauloaramuni%2Flaboratorio-de-desenvolvimento-de-software&leftColor=555555&rightColor=007ec6&type=total&label=RepoViews)
+[![Versão](https://img.shields.io/badge/Versão-v1.0.0-blue?style=for-the-badge)](https://github.com/ViniSimoesV/Portifolio-Web/releases) 
+![GitHub repo size](https://img.shields.io/github/repo-size/ViniSimoesV/Portifolio-Web?style=for-the-badge&logo=files) 
+![GitHub directory file count](https://img.shields.io/github/directory-file-count/ViniSimoesV/Portifolio-Web?style=for-the-badge&logo=files)  
+![GitHub last commit](https://img.shields.io/github/last-commit/ViniSimoesV/Portifolio-Web?style=for-the-badge&logo=clockify) 
+![Vercel](https://vercelbadge.vercel.app/api/ICEI-PUC-Minas-PMGCC-TI/portifolio-web?style=for-the-badge)
 
 ---
 
@@ -61,82 +53,34 @@
 
 ## 🔗 Links Úteis
 * 🌐 **Demo Online:** [Acesse a Aplicação Web](<link-da-demo-web>)
-  > 💻 **Descrição:** Link para a aplicação em ambiente de produção (Ex: hospedado na Vercel, Netlify ou AWS S3).
-* 📱 **Download Mobile:** [App Store](<link-app-store>) | [Google Play](<link-google-play>) | [APK Direto](<link-para-apk-direto>)
-  > 📱 **Descrição:** Links diretos para download nas lojas de aplicativos (se aplicável) e para o arquivo de instalação direta no Android (APK).
+  > 💻 **Descrição:** Link para a aplicação em ambiente de produção Vercel.  https://vinicius-simoes.vercel.app/
 * 📖 **Documentação:** [Leia a Wiki/Docs](<link-para-docs>)
-  > 📚 **Descrição:** Acesso à documentação técnica completa do projeto (Ex: Swagger/OpenAPI para API, ou Wiki interna).
+  > 📚 **Descrição:** Acesso à documentação técnica completa do projeto neste README.
 
 ---
 
 ## 📝 Sobre o Projeto
-Nesta seção, descreva de forma clara e objetiva **o propósito do seu projeto**, explicando:
-
-- **Por que ele existe** — qual motivação levou à sua criação.  
-- **Qual problema ele resolve** — que dor, necessidade ou oportunidade ele atende.  
-- **Qual o contexto** — acadêmico, profissional, pessoal, experimental, etc.  
-- **Onde ele pode ser utilizado** — cenários reais ou simulados.  
-
-Procure responder perguntas como:
-- *Qual foi a ideia inicial do projeto?*
-- *O que ele entrega de valor ao usuário?*
-- *Por que alguém utilizaria ou contribuiria com esse projeto?*
-- *O que o torna relevante ou interessante?*
-
-Escreva de forma objetiva, mas completa, para que qualquer pessoa entenda rapidamente **o que é** e **por que importa**.
-
-> [!NOTE]
-> Esta seção segue boas práticas de documentação profissional e deve ser ajustada conforme o tipo e o objetivo do seu projeto.
+Este portfólio foi criado para ser uma apresentação minha, de meus projetos desenvolvidos e minhas competências, concentrando estas informações em um único espaço público e personalizado.
+Sendo um aluno de Engenharia de Software, apresento algumas das experiências que tive, fruto de trabalhos interdisciplinares e extensionistas, trabalhando com cliente real.
 
 ---
 
 ## ✨ Funcionalidades Principais
 Liste as funcionalidades de forma clara e objetiva.
 
-- 🔐 **Autenticação Segura:** Login, Cadastro e Recuperação de Senha.
-- 📈 **Painel de Controle:** Visualização de dados em tempo real com gráficos.
-- ⚙️ **Gerenciamento de CRUD:** Criação, Leitura, Atualização e Deleção de recursos (e.g., Usuários, Itens, Posts).
-- 📊 **Relatórios Exportáveis:** Exportação de dados em PDF, CSV ou Excel.
-- 🌐 **Internacionalização (i18n):** Suporte a múltiplos idiomas.
-- 🧵 **Logs e Monitoramento:** Registro detalhado de atividades e análise de desempenho.
-- 🔄 **Integração com APIs Externas:** Conexão com serviços de terceiros (pagamentos, mapas, autenticação, etc.).
-- 📨 **Sistema de Notificações:** Envio de alertas por e-mail, push ou notificações internas.
+- 🌐 **Internacionalização (i18n):** Suporte aos idiomas Português BR e Inglês.
+- 🔄 **Integração com APIs Externas:** Conexão com serviços de terceiros envio de e-mail.
 
 ---
 
 ## 🛠 Tecnologias Utilizadas
 
-As seguintes ferramentas, frameworks e bibliotecas foram utilizados na construção deste projeto. Recomenda-se o uso das versões listadas (ou superiores) para garantir a compatibilidade.
+As seguintes ferramentas, frameworks e bibliotecas foram utilizados na construção deste projeto.
 
 ### 💻 Front-end
 
-* **Framework/Biblioteca:** [Ex: React v18, Vue.js v3, Angular v17]
-* **Linguagem/Superset:** [Ex: TypeScript, JavaScript ES6+]
-* **Estilização:** [Ex: Tailwind CSS, Sass, Styled Components, Material UI]
-* **Gerenciamento de Estado:** [Ex: Redux Toolkit, Zustand, Context API]
-* **Build Tool:** [Ex: Vite, Webpack]
-
-### 🖥️ Back-end
-
-* **Linguagem/Runtime:** [Ex: Java 17 (JDK), Node.js v20, Python 3.11]
-* **Framework:** [Ex: Spring Boot 3.x, NestJS, Express, Django]
-* **Banco de Dados:** [Ex: PostgreSQL, MySQL, MongoDB]
-* **ORM / Query Builder:** [Ex: Hibernate/JPA, Prisma, TypeORM]
-* **Autenticação:** [Ex: JWT, OAuth2, Spring Security]
-
-### 📱 Mobile (Opcional)
-
-* **Framework:** [Ex: React Native, Flutter, Kotlin Multiplatform]
-* **Ferramentas:** [Ex: Expo, Android Studio, Xcode]
-
-### ⚙️ Infraestrutura & DevOps
-
-* **Containerização:** [Ex: Docker, Docker Compose]
-* **Orquestração:** [Ex: Kubernetes (K8s)]
-* **Cloud:** [Ex: AWS (EC2, RDS, S3), Vercel, Heroku, Google Cloud]
-* **CI/CD:** [Ex: GitHub Actions, Jenkins, SonarQube]
-
----
+* **Linguagem/Superset:** [HTML, JavaScript]
+* **Estilização:** [ CSS ]
 
 ## 🏗 Arquitetura
 
@@ -169,35 +113,11 @@ Para melhor visualização e entendimento da estrutura do sistema, os diagramas 
 
 ## 🔧 Instalação e Execução
 
-### Pré-requisitos
-Certifique-se de que o usuário tenha o ambiente configurado.
-
-* **Java JDK:** Versão **17** ou superior (Necessário para o **Back-end Spring Boot**)
-* **Node.js:** Versão LTS (v18.x ou superior) (Necessário para o **Front-end React**)
-* **Gerenciador de Pacotes:** npm ou yarn
-* **Docker** (Opcional, mas **altamente recomendado** para rodar o Banco de Dados)
-
 ---
 
-### 🔑 Variáveis de Ambiente
+#### 1 Front-end (HTML, CSS)
 
-Crie arquivos `.env` específicos e/ou configure as variáveis de ambiente no seu sistema para cada parte da aplicação.
-
-#### 1 Back-end (Spring Boot)
-
-Configure estas variáveis como **variáveis de ambiente do sistema** ou em um arquivo de configuração do Spring (ex: `application.properties`/`application.yml`).
-
-| Variável | Descrição | Exemplo |
-| :--- | :--- | :--- |
-| `SERVER_PORT` | Porta onde o Back-end será executado. | `8080` |
-| `SPRING_DATASOURCE_URL` | URL de conexão JDBC (PostgreSQL). | `jdbc:postgresql://localhost:5432/meubanco` |
-| `SPRING_DATASOURCE_USERNAME` | Usuário do banco de dados. | `postgres` |
-| `SPRING_DATASOURCE_PASSWORD` | Senha do banco de dados. | `senha-segura-123` |
-| `JWT_SECRET` | Chave secreta para assinatura de tokens (Opcional). | `chave_super_segura_base64` |
-
-#### 2 Front-end (React, Vite)
-
-Crie um arquivo **`.env`** na raiz da pasta `/frontend` e use o prefixo `VITE_` (ou `REACT_APP_` se estiver usando CRA) para expor as variáveis ao *bundle* da aplicação.
+Crie um arquivo **`.env`** na raiz da pasta raiz `./` e `/src` e use o prefixo `VITE_` (ou `REACT_APP_` se estiver usando CRA) para expor as variáveis ao *bundle* da aplicação.
 
 | Variável | Descrição | Exemplo |
 | :--- | :--- | :--- |
@@ -243,17 +163,7 @@ SENDGRID_API_KEY=SG.sua_sendgrid_key_aqui
 
 ---
 
-##### **Exemplo 4 – Frontend com Vite (EmailJS)**
-
 ```
-VITE_EMAILJS_SERVICE_ID=seu_service_id_aqui
-VITE_EMAILJS_TEMPLATE_ID_FOR_ME=seu_template_id_for_me_aqui
-VITE_EMAILJS_TEMPLATE_ID_FOR_SENDER=seu_template_id_for_sender_aqui
-VITE_EMAILJS_PUBLIC_KEY=sua_public_key_aqui
-```
-
-> **Obs:** As variáveis de ambiente em projetos **Vite** precisam começar com `VITE_` para que o Vite as reconheça e as inclua no *bundle* do frontend; variáveis sem esse prefixo não ficam disponíveis no código do cliente.
-
 ---
 
 Para adicionar essas variáveis:
@@ -264,20 +174,6 @@ Para adicionar essas variáveis:
 Alternativamente, se estiver desenvolvendo localmente, crie um arquivo **`.env.local`** dentro da pasta **`frontend`** do seu projeto com o seguinte conteúdo:
 
 ```
-# Variável essencial para conectar ao Back-end Spring Boot rodando localmente (normalmente na porta 8080)
-VITE_API_URL=http://localhost:8080/api
-
-# Variáveis para integrações externas de serviço de e-mail
-VITE_EMAILJS_SERVICE_ID=seu_service_id_aqui
-VITE_EMAILJS_TEMPLATE_ID_FOR_ME=seu_template_id_for_me_aqui
-VITE_EMAILJS_TEMPLATE_ID_FOR_SENDER=seu_template_id_for_sender_aqui
-VITE_EMAILJS_PUBLIC_KEY=sua_public_key_aqui
-
-# Outras chaves de serviço
-VITE_GOOGLE_MAPS_KEY=AIzaSy...
-```
-
-> 💡 **Localização:** Garanta que este arquivo esteja em **`/frontend/.env.local`** para que o **Vite** consiga carregá-lo e disponibilizar as variáveis para o Front-end durante o desenvolvimento.
 
 ### 📦 Instalação de Dependências
 
@@ -286,91 +182,25 @@ Clone o repositório e instale as dependências.
 1.  **Clone o Repositório:**
 
 ```bash
-git clone <URL_DO_SEU_REPOSITÓRIO>
+git clone https://github.com/ICEI-PUC-Minas-PMGCC-TI/portifolio-web.git
 cd <pasta-do-projeto>
 ```
 
-2.  **Instale as Dependências (Monorepo):**
+2.  **Dependências:**
 
-Como o projeto está dividido, você precisa instalar as dependências separadamente para o Front-end (React, usando NPM/Yarn) e garantir que o Back-end (Spring Boot, usando Maven/Gradle Wrapper) tenha suas dependências resolvidas.
+Como o projeto está não dividido, as dependências estão resolvidas.
 
-#### Front-end (React)
-
-Acesse a pasta do Front-end e instale as dependências do Node.js:
-
-```bash
-cd frontend
-npm install
-# ou
-yarn install
-cd .. # Retorna para a raiz
-```
-
-#### Back-end (Spring Boot)
-
-O Spring Boot utiliza o **Maven Wrapper** (`./mvnw`) ou **Gradle Wrapper** (`./gradlew`) para gerenciar dependências. Execute o comando de instalação/build limpo antes de rodar.
-
-* **Usando Maven (`pom.xml`):**
-    ```bash
-    cd backend
-    ./mvnw clean install
-    cd ..
-    ```
-
-* **Usando Gradle (`build.gradle`):**
-    ```bash
-    cd backend
-    ./gradlew clean build
-    cd ..
-    ```
-
----
-
-### 💾 Inicialização do Banco de Dados (PostgreSQL)
-
-O projeto utiliza **PostgreSQL**. A forma mais fácil de inicializar o banco é via Docker (para execução sem `docker-compose`):
-
-1. **Rode o Container do PostgreSQL:**  
-   (Certifique-se que o Docker está em execução)
-
-```bash
-docker run --name minha_db -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=senha-segura-123 -e POSTGRES_DB=nome_do_banco -p 5432:5432 -d postgres:16
-```
-
-2. **Execute as Migrações:**  
-   O Back-end **Spring Boot** geralmente gerencia o schema do banco de dados automaticamente no startup (via Hibernate `ddl-auto`) ou utilizando ferramentas como **Flyway** ou **Liquibase**.
-
-* **Se o Spring Boot gerencia o schema (padrão):** Nenhuma ação manual é necessária, basta rodar o Back-end (veja a próxima seção).
-* **Se usar Flyway/Liquibase via Maven:**
-    ```bash
-    cd backend
-    ./mvnw flyway:migrate
-    # ou
-    ./mvnw liquibase:update
-    ```
 ---
 
 ### ⚡ Como Executar a Aplicação
-Execute a aplicação em modo de desenvolvimento em **dois terminais separados**.
+Execute a aplicação em modo de desenvolvimento em **um terminal**.
 
-#### Terminal 1: Back-end (Spring Boot)
-
-Inicie a API do Spring Boot. Ela tentará se conectar ao banco de dados rodando no Docker.
-
-```bash
-cd backend
-./mvnw spring-boot:run
-```
-🚀 *O Back-end estará disponível em **http://localhost:8080**.*
-
----
-
-#### Terminal 2: Front-end (React, Vite)
+#### Terminal 2: Front-end (HTML)
 
 Inicie o servidor de desenvolvimento do Front-end.
 
 ```bash
-cd frontend
+cd ./
 npm run dev
 # ou
 yarn dev
@@ -379,65 +209,6 @@ yarn dev
 
 ---
 
-#### 🐳 Execução Local Completa com Docker Compose (Incluindo Banco de Dados)
-
-Para uma execução local que inclui o serviço de Back-end (**Spring Boot**), Front-end (**React**) e o banco de dados **PostgreSQL**, usaremos o **`docker-compose`** para orquestração.
-
-Antes de tudo, certifique-se de que o **Docker Desktop** (no Mac/Windows) ou o **serviço Docker** (em Linux) está em execução.
-
-- **No Mac/Windows**: basta abrir o aplicativo **Docker Desktop**.
-- **No Linux**: rode o comando abaixo para iniciar o serviço:
-
-```bash
-sudo systemctl start docker
-```
-
----
-
-#### 📦 Passos para build, inicialização e execução
-
-1. Acesse a pasta raiz do projeto (onde o arquivo `docker-compose.yml` está localizado):
-
-```bash
-cd /caminho/do/projeto/nome-do-projeto
-```
-
-2. Suba todos os serviços (Back-end, Front-end e Banco de Dados) definidos no `docker-compose.yml`:
-
-```bash
-docker-compose up --build -d
-```
-
-> [!NOTE]
-> 💡 O parâmetro `--build` garante que as imagens mais recentes do projeto sejam geradas, e `-d` executa em segundo plano.
-
-3. Verifique se os containers estão rodando:
-
-```bash
-docker ps
-```
-
-4. **Execute as Migrações do Banco de Dados:**
-   O Back-end **Spring Boot** geralmente gerencia o schema do banco de dados (via Flyway/Liquibase ou Hibernate) na **inicialização do serviço**.
-
-* **Verificação:** Se o serviço de Back-end (`backend` ou `api`) for o responsável pelas migrações, verifique os logs para confirmar se o processo foi concluído.
-    ```bash
-    docker logs <nome_do_container_backend>
-    ```
-* *Atenção:* O comando `npm run db:migrate` é exclusivo para Node.js e **não** deve ser usado.
-
-5. Abra no navegador:
-   O Front-end deve estar acessível na porta configurada no `docker-compose` (Exemplo: <http://localhost:3000> ou <http://localhost:5173>)
-
-6. Para parar e remover todos os containers, redes e volumes (exceto volumes nomeados):
-
-```bash
-docker-compose down
-```
-
-✅ **Em resumo:** Usar **`docker-compose`** simplifica a execução do ambiente completo, isolando as dependências de **Java (Spring Boot)** e **Node.js (React)** e garantindo que o PostgreSQL esteja disponível.
-
----
 
 ## 🚀 Deploy
 Instruções claras para deploy em produção.
@@ -731,6 +502,7 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
