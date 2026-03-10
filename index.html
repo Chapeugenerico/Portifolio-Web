@@ -17,14 +17,14 @@
                 <ul class="menu">
                     <a class="logo" href="#inicio"> > Vinícius </a>
 
-                    <li><a href="#sobre" class="lang-br">Sobre mim</a></li>
-                    <li><a href="#sobre" class="lang-eng">About me</a></li>
-                    <li><a href="#projetos" class="lang-br">Projetos</a></li>
-                    <li><a href="#projetos" class="lang-eng">Projects</a></li>
-                    <li><a href="#experiencias" class="lang-br">Experiências</a></li>
-                    <li><a href="#experiencias" class="lang-eng">Experiences</a></li>
-                    <li><a href="#contato" class="lang-br">Contato</a></li>
-                    <li><a href="#contato" class="lang-eng">Contact</a></li>
+                    <li class="lang-br"><a href="#sobre" class="lang-br">Sobre mim</a></li>
+                    <li class="lang-eng"><a href="#sobre" class="lang-eng">About me</a></li>
+                    <li class="lang-br"><a href="#projetos" class="lang-br">Projetos</a></li>
+                    <li class="lang-eng"><a href="#projetos" class="lang-eng">Projects</a></li>
+                    <li class="lang-br"><a href="#experiencias" class="lang-br">Experiências</a></li>
+                    <li class="lang-eng"><a href="#experiencias" class="lang-eng">Experiences</a></li>
+                    <li class="lang-br"><a href="#contato" class="lang-br">Contato</a></li>
+                    <li class="lang-eng"><a href="#contato" class="lang-eng">Contact</a></li>
 
                     <button class="toggle-lang" onclick="toggleLang()"> PT | EN </button>
                 </ul>
@@ -40,7 +40,7 @@
                     <h3 class="lang-br">Olá, sou Vinícius Simões!</h3>
                     <h3 class="lang-eng">Hello, I'm Vinícius Simões!</h3>
                     <h1 class="lang-br">ENGENHEIRO DE SOFTWARE</h1>
-                    <h1 class="lang-eng">SOFTWARE ENGINEER</h1>
+                    <h1 class="lang-eng" id="heroIngles">SOFTWARE ENGINEER</h1>
                     <p class="lang-br">Sou estudante de Engenharia de Software na PUC Minas, desenvolvendo sistemas que unem precisão técnica e inovação.</p>
                     <p class="lang-eng">I'm a Software Engineering student at PUC Minas, developing systems that combine technical precision and innovation.</p>
                     <div class="social-icons">
@@ -76,7 +76,6 @@
 
                 <!-- Projeto 1 -->
                 <article class="projeto-card">
-                    <div class="projeto-image"> <img src="../assets/imgs/TI3.gif" alt="gifProjetoMartinPsicologo"></div>
                     <div class="projeto-info">
                         <h3 class="lang-br"> Martin Psicólogo </h3>
                         <h3 class="lang-eng"> Martin Psychologist Clinic </h3>
@@ -107,7 +106,9 @@
                         </div>
                     </div>
                 </article>
-
+                <article class="projeto-card-horizontal">
+                    <div class="projeto-image-horizontal"> <img src="../assets/imgs/TI3.gif" class="projeto-gif" alt="gifProjetoMartinPsicologo"></div>
+                </article>
                 <!-- Projeto 2 
                 <article class="projeto-card">
                     <div class="projeto-image"> </div>
