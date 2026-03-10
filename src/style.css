@@ -1,3 +1,13 @@
+/* Fonte da JetBrains */
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url('../assets/JetBrainsMono-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Controls font loading behavior */
+}
+
+
 :root {
     --bg-color: #1f1f1f;
     --card-bg: #f0f0f0;
@@ -115,9 +125,24 @@ body.en-active .lang-eng {
     margin: 10px 0;
     letter-spacing: 2px;
     color: var(--destaque-color);
+    font-family: 'JetBrainsMono', Arial, sans-serif;
 
     border-right: 0.2rem solid;
     width: 26ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(26), blinking 0.5s infinite step-end alternate;
+}
+
+#heroIngles {
+    font-size: 2.5rem;
+    margin: 10px 0;
+    letter-spacing: 2px;
+    color: var(--destaque-color);
+    font-family: 'JetBrainsMono';
+
+    border-right: 0.2rem solid;
+    width: 20ch;
     white-space: nowrap;
     overflow: hidden;
     animation: typing 2s steps(26), blinking 0.5s infinite step-end alternate;
@@ -208,12 +233,24 @@ section#projetos{
 .projeto-card {
     display: grid;
     /* Coluna 1: Imagem | Coluna 2: Info | Coluna 3: Tags */
-    grid-template-columns: 1fr 1.2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     border-radius: 1rem;
     background-color: #ffffff;
     overflow: hidden;
     min-height: 70%;
     width: 80%;
+    margin-bottom: 3rem;
+}
+
+.projeto-card-horizontal {
+    display: grid;
+    /* Coluna 1: Imagem | Coluna 2: Info | Coluna 3: Tags */
+    grid-template-columns: 1fr;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    overflow: hidden;
+    height: 18rem;
+    width: 55%;
     margin-bottom: 3rem;
 }
 
@@ -223,13 +260,33 @@ section#projetos{
     transition: 0.5s;
 }
 
+.projeto-card-horizontal:hover {
+    box-shadow: var(--destaque-color) 0rem 0rem 3rem;
+    
+    transition: 0.5s;
+}
+
 /* Coluna 1: Espaço da Imagem */
 .projeto-image {
-    border-right: 0.15rem solid var(--bg-color);
+    border-right: 0.5rem solid var(--bg-color);
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 150%;
+}
+
+.projeto-image-horizontal {
+    border-right: 0.5rem solid var(--bg-color);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.projeto-gif{
+    height: 90%;
 }
 
 /* Coluna 2: Informações Centrais */
@@ -518,6 +575,11 @@ footer {
 
     /* Ajuste dos Cards de Projeto */
     .projeto-card {
+        grid-template-columns: 1fr; /* Empilha imagem, info e tags */
+        width: 100%;
+    }
+
+    .projeto-card-horizontal {
         grid-template-columns: 1fr; /* Empilha imagem, info e tags */
         width: 100%;
     }
